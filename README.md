@@ -4,10 +4,10 @@ This is my personal developer portfolio showcasing my projects,
 skills, and experience.
 
 ## Tech Stack
-- React / Next.js
-- JavaScript
-- CSS / Tailwind
-- Python
+- HTML5
+- Vanilla CSS3
+- Vanilla JavaScript
+- Google Fonts/FontAwesome
 
 ## Features
 - Responsive design
