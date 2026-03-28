@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoha Khawaja | Software Engineer & Data Scientist</title>
-    <meta name="description" content="Portfolio of Zoha Khawaja, a Software Engineering student specializing in Data Science, Machine Learning, and Web Development.">
+    <title>Zoha Khawaja | Data Scientist & AI Engineer</title>
+    <meta name="description" content="Portfolio of Zoha Khawaja, a Software Engineering student specializing in Data Science, Machine Learning, and AI.">
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Immersive Essentials -->
+    <div id="scroll-progress"></div>
+    <div class="cursor-flashlight"></div>
+    <div class="maxi-text">AI & DATA</div>
+
     <!-- Abstract Background -->
     <div class="bg-mesh">
         <div class="blob blob-1"></div>
@@ -31,6 +36,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="resume.html" target="_blank" class="resume-nav-link">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -43,20 +49,30 @@
     <section id="hero" class="hero">
         <div class="container hero-content">
             <div class="hero-text">
-                <div class="badge-pill reveal">👋 Welcome to my portfolio</div>
-                <h1 class="name reveal">I'm <span class="gradient-text">Zoha Khawaja</span></h1>
-                <h2 class="title reveal">Software Engineer & Data Scientist</h2>
-                <p class="subtitle reveal">I build intelligent systems, from predictive Machine Learning models to robust Full-Stack Web and Desktop applications.</p>
-                <div class="hero-cta reveal">
-                    <a href="#projects" class="btn btn-primary">Explore Work <i class="fas fa-arrow-right"></i></a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                <div class="badge-pill reveal-init chasing-glow">👋 AI & Data Science</div>
+                <h1 class="name reveal-init">I'm <span class="gradient-text glow-text">Zoha Khawaja</span></h1>
+                <h2 class="title reveal-init" id="scramble-role">Data Scientist</h2>
+                <p class="subtitle reveal-init">Engineering the future of intelligence with high-precision Data Science and robust Software Architecture.</p>
+                <div class="hero-cta reveal-init">
+                    <a href="#projects" class="btn btn-primary magnetic">Explore AI Work <i class="fas fa-brain"></i></a>
+                    <a href="resume.html" target="_blank" class="btn btn-secondary magnetic">View Resume <i class="fas fa-file-pdf"></i></a>
+                    <a href="#contact" class="btn btn-secondary magnetic">Get in Touch</a>
                 </div>
-                <div class="social-links-hero reveal">
-                    <a href="https://github.com/zohaakhawajaa" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/zoha-khawaja-99671831b/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://x.com/zohaakhawajaa" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.kaggle.com/zohakhawaja" target="_blank" title="Kaggle"><i class="fab fa-kaggle"></i></a>
+                <div class="social-links-hero reveal-init">
+                    <a href="https://github.com/zohaakhawajaa" target="_blank" title="GitHub" class="magnetic"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/zoha-khawaja-99671831b/" target="_blank" title="LinkedIn" class="magnetic"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/zohaakhawajaa" target="_blank" title="Twitter" class="magnetic"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.kaggle.com/zohakhawaja" target="_blank" title="Kaggle" class="magnetic"><i class="fab fa-kaggle"></i></a>
                 </div>
+            </div>
+            
+            <!-- Floating Tech Stack -->
+            <div class="floating-tech reveal-init">
+                <div class="tech-icon t1 magnetic"><i class="fab fa-python" title="Python"></i></div>
+                <div class="tech-icon t2 magnetic"><i class="fas fa-brain" title="Machine Learning"></i></div>
+                <div class="tech-icon t3 magnetic"><i class="fas fa-database" title="SQL"></i></div>
+                <div class="tech-icon t4 magnetic"><i class="fab fa-aws" title="AWS"></i></div>
+                <div class="tech-icon t5 magnetic"><i class="fas fa-cloud" title="Cloud Computing"></i></div>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -65,6 +81,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- About & Experience Section -->
     <section id="about" class="section">
@@ -77,34 +94,44 @@
             <div class="about-grid">
                 <div class="about-text glass mask-card reveal">
                     <h3>Who am I?</h3>
-                    <p>I am a passionate <strong>BS Software Engineering student</strong> currently exploring the fascinating realm of <strong>Data Science</strong>. My journey revolves around building intelligent systems and robust applications.</p>
-                    <p>My extensive experience spans from building deep learning models for object detection (such as YOLO for helmets, fire, and license plates) to crafting full-stack web applications and robust C# .NET desktop software.</p>
-                    <p>I thrive on solving complex problems with strict adherence to Test-Driven Development (TDD), CI/CD pipelines, and User Acceptance Testing (UAT).</p>
+                    <p>I am a passionate <strong>BS Software Engineering student</strong> at <strong>National College of Business Administration & Economics (Alhamra University)</strong> (2023 - 2027), currently exploring the fascinating realm of <strong>Data Science</strong> and AI from <strong>Bahawalpur, Pakistan</strong>.</p>
+                    <p>My expertise spans from building deep learning models for object detection (YOLO) to crafting full-stack AWS applications and robust C# .NET software. I thrive on solving complex problems with strict adherence to TDD, CI/CD, and UAT.</p>
                     
-                    <div class="achievement-badge">
-                        <i class="fas fa-trophy text-gold"></i>
-                        <div>
-                            <strong>GitHub "Quickdraw" Badge</strong>
-                            <span>Gitty up! History 100% unlocked. Solved UAT issue #1 within 5 minutes.</span>
+                    <a href="https://github.com/users/zohaakhawajaa/achievements/quickdraw" target="_blank" class="achievement-badge glass gitty-up">
+                        <div class="gitty-icon-wrapper">
+                            <i class="fas fa-hat-cowboy"></i>
+                            <div class="badge-sparkle"></div>
                         </div>
-                    </div>
+                        <div>
+                            <strong>GitHub "Quickdraw"</strong>
+                            <span>"Gitty Up! History 100% unlocked." – Solved UAT issue #1 in < 5 mins.</span>
+                        </div>
+                    </a>
                 </div>
 
                 <div id="experience" class="experience-timeline reveal">
                     <div class="timeline-item glass">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h4>Software Engineering Intern</h4>
-                            <p class="company"><a href="https://www.linkedin.com/company/developershub-corporation/posts/?feedView=all" target="_blank">Developers Hub Corporation</a> &bull; 6 Weeks</p>
-                            <p class="desc">Gained hands-on experience in software development life cycles, collaborating with teams to build and optimize solutions.</p>
+                            <h4>BS Software Engineering</h4>
+                            <p class="company">National College of Business Administration & Economics (Alhamra University)</p>
+                            <p class="desc">Academic journey (2023 - 2027) focused on Software Engineering, Data Science, and AI. Building a foundation in high-performance architecture and intelligent systems from Bahawalpur.</p>
                         </div>
                     </div>
                     <div class="timeline-item glass">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <h4>Engineering Fellow</h4>
-                            <p class="company"><a href="https://www.linkedin.com/company/clickchain-academy/posts/?feedView=all" target="_blank">Clickchain Academy</a></p>
-                            <p class="desc">Participated in intensive engineering fellowships focusing on modern development practices and collaborative coding.</p>
+                            <h4>Machine Learning & AI Intern</h4>
+                            <p class="company"><a href="https://www.linkedin.com/company/developershub-corporation/posts/?feedView=all" target="_blank">Developers Hub Corporation</a> &bull; Dec 2025 - Jan 2026</p>
+                            <p class="desc">Conducted in-depth <strong>Exploratory Data Analysis (EDA)</strong> and developed highly accurate <strong>House Price Prediction</strong> models using advanced regression algorithms. <a href="https://drive.google.com/file/d/1e9IsF94cZMytWdMyoQ1k-0pJDDn6xGjR/view?usp=drive_link" target="_blank" class="text-link"><i class="fas fa-certificate"></i> View Certificate</a></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>ClickChain Fellowship</h4>
+                            <p class="company"><a href="https://www.linkedin.com/posts/zoha-khawaja-99671831b_built-and-deployed-on-aws-my-clickchain-activity-7440325307993153536-bcNY" target="_blank">ClickChain Academy</a></p>
+                            <p class="desc">Advanced engineering program focused on <strong>full-stack AWS deployments</strong>, <strong>CI/CD pipelines</strong>, and automated cloud infrastructure management. <a href="https://www.linkedin.com/posts/zoha-khawaja-99671831b_built-and-deployed-on-aws-my-clickchain-activity-7440325307993153536-bcNY" target="_blank" class="text-link"><i class="fab fa-linkedin"></i> View Details</a></p>
                         </div>
                     </div>
                 </div>
@@ -138,8 +165,7 @@
                     <div class="skill-icon"><i class="fas fa-code"></i></div>
                     <h3>Software Engineering</h3>
                     <div class="tags">
-                        <span>Python</span><span>C# .NET</span><span>TypeScript</span>
-                        <span>Next.js</span><span>Node.js</span><span>HTML/CSS</span>
+                        <span>Python</span><span>C# .NET</span><span>HTML/CSS</span>
                         <span>JavaScript</span><span>MySQL</span>
                     </div>
                 </div>
@@ -173,71 +199,106 @@
             <div class="section-header reveal">
                 <h2 class="section-title">Featured Projects</h2>
                 <p class="section-subtitle">Showcasing my latest work across ML, Web, and Software</p>
+                
+                <!-- Project Filters -->
+                <div class="project-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                    <button class="filter-btn" data-filter="aws">AWS Cloud</button>
+                    <button class="filter-btn" data-filter="software">Software Eng.</button>
+                    <button class="filter-btn" data-filter="data">Data Science</button>
+                </div>
             </div>
 
             <div class="portfolio-grid">
                 
-                <!-- Project 1 -->
-                <div class="project-item glass reveal">
+
+                <!-- Project 2: YOLO Detection -->
+                <div class="project-item bento-large glass reveal" data-category="cv" style="--card-glow: var(--accent-blue);">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=800" alt="YOLO Object Detection">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=800" alt="YOLOv8 Projects">
                         <div class="img-overlay">
-                            <a href="https://github.com/zohaakhawajaa/Helmet-Number-Plate-Detection-using-YOLOv8" target="_blank" class="view-btn"><i class="fab fa-github"></i> View Source</a>
+                            <a href="https://www.linkedin.com/posts/zoha-khawaja-99671831b_multiple-yolo-projects-one-combined-result-activity-7431406485399597056-a0Ro" target="_blank" class="view-btn"><i class="fab fa-linkedin"></i> Work Showcase</a>
+                            <a href="https://www.linkedin.com/posts/zoha-khawaja-99671831b_computervision-yolov8-deeplearning-activity-7411442478995759104-rDdh" target="_blank" class="view-btn"><i class="fab fa-linkedin"></i> Video Demo</a>
+                            <a href="https://github.com/zohaakhawajaa/Helmet-Number-Plate-Detection-using-YOLOv8" target="_blank" class="view-btn"><i class="fab fa-github"></i> Repository</a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>Helmet & Plate Detection (YOLOv8)</h3>
-                        <p>Advanced computer vision suite using YOLOv8 for detecting helmets, fire, and license plates with custom polygon tracking.</p>
+                        <div class="project-category"><i class="fas fa-eye"></i> Computer Vision</div>
+                        <h3>YOLOv8 Computer Vision Suite</h3>
+                        <p>Comprehensive computer vision projects including real-time detection, tracking, and instance segmentation for various industrial use cases.</p>
                         <div class="project-tags">
-                            <span>YOLOv8</span><span>Python</span><span>OpenCV</span>
+                            <span>YOLOv8</span><span>Computer Vision</span><span>Deep Learning</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-item glass reveal">
+                <!-- Project: YOLOv8 Crack Detection -->
+                <div class="project-item glass reveal" data-category="cv" style="--card-glow: var(--accent-blue);">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="ML Predictive Models">
+                        <img src="https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?auto=format&fit=crop&q=80&w=800" alt="Crack Detection">
                         <div class="img-overlay">
-                            <a href="https://github.com/zohaakhawajaa/House-Price-Prediction-ML-" target="_blank" class="view-btn"><i class="fab fa-github"></i> House Price</a>
-                            <a href="https://github.com/zohaakhawajaa/Heart-Risk-Predictor-ML" target="_blank" class="view-btn"><i class="fab fa-github"></i> Heart Risk</a>
+                            <a href="https://github.com/zohaakhawajaa/yolov8-crack-detection" target="_blank" class="view-btn"><i class="fab fa-github"></i> View Repo</a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>ML Predictive Models</h3>
-                        <p>Developed powerful Scikit-Learn predictive models for House Pricing and Heart Risk probability with extensive EDA.</p>
+                        <div class="project-category"><i class="fas fa-microscope"></i> Computer Vision</div>
+                        <h3>YOLOv8 Surface Crack Detection</h3>
+                        <p>High-precision detection system for structural integrity. Features custom performance analysis with Precision-Recall curves and Confusion Matrices.</p>
                         <div class="project-tags">
-                            <span>Scikit-Learn</span><span>Pandas</span><span>Seaborn</span>
+                            <span>YOLOv8</span><span>Dataset Engineering</span><span>Performance Metrics</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
-                <div class="project-item glass reveal">
+                <!-- Project: Palmistry YOLOv8 -->
+                <div class="project-item glass reveal" data-category="cv" style="--card-glow: var(--accent-purple);">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800" alt="AWS Timesheet App">
+                        <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=800" alt="Palm Line Detection">
                         <div class="img-overlay">
-                            <a href="https://github.com/zohaakhawajaa/TimeSheetFE" target="_blank" class="view-btn"><i class="fab fa-github"></i> View Frontend</a>
+                            <a href="https://github.com/zohaakhawajaa/palm-line-detection-yolov8" target="_blank" class="view-btn"><i class="fab fa-github"></i> View Repo</a>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>AWS Timesheet Application</h3>
-                        <p>Modern full-stack time tracking application deployed on AWS infrastructure, featuring a responsive Next.js frontend.</p>
+                        <div class="project-category"><i class="fas fa-hand-sparkles"></i> AI Deep Learning</div>
+                        <h3>Palmistry YOLOv8 Line Detection</h3>
+                        <p>Specialized object detection model trained on custom palmistry datasets for identifying and mapping palm lines with high accuracy.</p>
                         <div class="project-tags">
-                            <span>Next.js</span><span>AWS EC2</span><span>TypeScript</span>
+                            <span>YOLOv8</span><span>Custom Dataset</span><span>Image Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project ClickChain Fellowship -->
+                <div class="project-item bento-large glass reveal" data-category="aws" style="--card-glow: var(--accent-gold);">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800" alt="ClickChain Fellowship">
+                        <div class="img-overlay">
+                            <a href="https://www.linkedin.com/posts/zoha-khawaja-99671831b_built-and-deployed-on-aws-my-clickchain-activity-7440325307993153536-bcNY" target="_blank" class="view-btn"><i class="fab fa-linkedin"></i> Fellowship View</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category"><i class="fas fa-certificate"></i> AWS Fellowship</div>
+                        <h3>ClickChain Fellowship (Project Echo)</h3>
+                        <p>A prestigious cloud-native fellowship project built and deployed on AWS infrastructure, demonstrating high-scale event handling and robust architecture.</p>
+                        <div class="project-tags">
+                            <span>AWS Fellowship</span><span>Cloud Architecture</span><span>Deployment</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Project 4 -->
-                <div class="project-item glass reveal">
+                <div class="project-item glass reveal" data-category="software" style="--card-glow: var(--accent-blue);">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?auto=format&fit=crop&q=80&w=800" alt="ZeeK .NET Desktop">
                         <div class="img-overlay">
+                            <a href="https://www.linkedin.com/posts/zoha-khawaja-99671831b_zeek-net-management-system-a-c-net-desktop-activity-7432454004695273473-eFgl" target="_blank" class="view-btn"><i class="fab fa-linkedin"></i> Experience View</a>
                             <a href="https://github.com/zohaakhawajaa/ZeeK-.NET-Management-System" target="_blank" class="view-btn"><i class="fab fa-github"></i> View Source</a>
                         </div>
                     </div>
                     <div class="project-info">
+                        <div class="project-category"><i class="fas fa-desktop"></i> Desktop App</div>
                         <h3>ZeeK .NET Management System</h3>
                         <p>A robust Enterprise Desktop Application built for comprehensive management utilizing C#, .NET framework, and MySQL.</p>
                         <div class="project-tags">
@@ -247,7 +308,7 @@
                 </div>
 
                 <!-- Project 5 -->
-                <div class="project-item glass reveal">
+                <div class="project-item glass reveal" data-category="data" style="--card-glow: var(--accent-indigo);">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" alt="Exploratory Data Analysis">
                         <div class="img-overlay">
@@ -255,6 +316,7 @@
                         </div>
                     </div>
                     <div class="project-info">
+                        <div class="project-category"><i class="fas fa-chart-line"></i> Data Analysis</div>
                         <h3>Big Data Exploratory Analysis</h3>
                         <p>In-depth exploratory data analysis (EDA) and visualization on datasets like Google Play Store and Population metrics.</p>
                         <div class="project-tags">
@@ -264,7 +326,7 @@
                 </div>
 
                 <!-- Project 6 -->
-                <div class="project-item glass reveal">
+                <div class="project-item glass reveal" data-category="software" style="--card-glow: var(--accent-purple);">
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=800" alt="Software Architecture">
                         <div class="img-overlay">
@@ -273,6 +335,7 @@
                         </div>
                     </div>
                     <div class="project-info">
+                        <div class="project-category"><i class="fas fa-vial"></i> QA & Architecture</div>
                         <h3>Testing & Architecture</h3>
                         <p>Implementations of Software Design Patterns (Singleton in Python) and comprehensive User Acceptance Testing frameworks.</p>
                         <div class="project-tags">
@@ -298,14 +361,21 @@
                             <div class="method-icon"><i class="fas fa-envelope"></i></div>
                             <div>
                                 <h4>Email Me</h4>
-                                <a href="mailto:zohaakhawajaa@gmail.com">zohakhawaja@gmail.com</a>
+                                <a href="mailto:zohaakhawajaa@gmail.com">zohaakhawajaa@gmail.com</a>
                             </div>
                         </div>
                         <div class="method">
                             <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
                             <div>
                                 <h4>WhatsApp</h4>
-                                <a href="https://wa.me/923176497443" target="_blank">+92 300 000 0000</a>
+                                <a href="https://wa.me/923176497443" target="_blank">+92 317 6497443</a>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <div class="method-icon"><i class="fas fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Bahawalpur, Pakistan</span>
                             </div>
                         </div>
                     </div>
@@ -323,7 +393,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Zoha Khawaja. Designed & Built with passion.</p>
+            <p>&copy; Zoha Khawaja. All rights reserved.</p>
         </div>
     </footer>
 
