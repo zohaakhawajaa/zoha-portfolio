@@ -380,6 +380,26 @@ nav.scrolled {
     width: 100%;
 }
 
+.nav-links a.resume-nav-link {
+    color: #fff;
+    padding: 0.4rem 1.25rem;
+    background: rgba(168, 85, 247, 0.1);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    border-radius: 50px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-links a.resume-nav-link:hover {
+    background: var(--gradient-brand);
+    border-color: transparent;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+    transform: translateY(-2px);
+}
+
+.nav-links a.resume-nav-link::after {
+    display: none;
+}
+
 .mobile-menu-btn {
     display: none;
     font-size: 1.5rem;
