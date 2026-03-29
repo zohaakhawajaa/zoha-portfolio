@@ -15,4 +15,4 @@ skills, and experience.
 - Contact section
 
 ## Live Demo
-https://capable-hamster-cca7aa.netlify.app/
+https://mellifluous-brioche-f9d38d.netlify.app/
