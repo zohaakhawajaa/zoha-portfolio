@@ -855,27 +855,7 @@ nav.scrolled {
 .project-item:hover {
     transform: translateY(-14px) scale(1.025) rotateX(2deg);
     border-color: transparent;
-    box-shadow:
-        0 40px 80px rgba(0, 0, 0, 0.6),
-        0 0 40px var(--card-glow, rgba(59, 130, 246, 0.25)),
-        0 0 80px var(--card-glow, rgba(59, 130, 246, 0.1));
-}
-
-/* Inner radial glow overlay */
-.project-item::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 24px;
-    background: radial-gradient(circle at 60% 20%, var(--card-glow, rgba(168, 85, 247, 0.18)), transparent 65%);
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    z-index: 0;
-    pointer-events: none;
-}
-
-.project-item:hover::after {
-    opacity: 1;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
 }
 
 .project-category {
